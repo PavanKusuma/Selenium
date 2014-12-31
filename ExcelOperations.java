@@ -3,7 +3,6 @@ package utilities;
 
 import genericConstants.GenericApplicationConstants;
 
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
@@ -71,7 +70,7 @@ public class ExcelDataOperations {
 	 * Function to Read entire Row Data and put this into an ArrayList
 	 **************************************************************************/
 
-	
+	@SuppressWarnings("unchecked")
 	public Map retrieveRowData(String sheetName, String columnName, String cellValue){		
 
 		Map<String, Map<String,String>> DetailsMap  = new HashMap<String, Map<String,String>>();		
