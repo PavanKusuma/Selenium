@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  preserve-order="true" parallel="false">  
+<parameters>   
+	 <parameter name="browser" value="firefox" />
+	 
+     <parameter name="version" value="24" />   
+	 <parameter name="applicationURL" value="http://10.219.92.160/shop" />
+</parameters>    
+  
+     <listeners>
+        <listener class-name="testListener.Testing" />
+    </listeners>
+
+
+  
+
+  <!--Running Successfully -->
+
+<!--  <test name="VCeS_Sanity_sample">
+    <classes>      
+       <class name="application.VCeS_Sanity_sample"/>         
+    </classes>
+  </test> 
+
+ -->
+ 
+ </suite>
